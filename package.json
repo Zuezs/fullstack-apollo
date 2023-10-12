@@ -1,0 +1,25 @@
+{
+  "name": "fullstack-apollo",
+  "version": "1.0.0",
+  "description": "Application that uses TypeScript, Apollo GQL, React, LowDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.9.4",
+    "graphql": "^16.8.1",
+    "lodash": "^4.17.21"
+  },
+  "workspaces": [
+    "apps/server",
+    "apps/client"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.8.4",
+    "typescript": "^5.2.2"
+  }
+}
